@@ -1,0 +1,15 @@
+*{
+    margin: 0; border: 0;
+}
+.box{
+    margin: 10px;
+    width:100px;
+    height:100px;
+    float: left;
+    background-color: yellow;
+    border-radius: 20px;
+}
+.c{
+    clear:both
+}
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
