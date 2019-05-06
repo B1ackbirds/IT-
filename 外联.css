@@ -3,8 +3,8 @@
 }
 .box{
     margin: 10px;
-    width:100px;
-    height:100px;
+    width:200px;
+    height:200px;
     float: left;
     background-color: yellow;
     border-radius: 20px;
