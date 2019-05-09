@@ -5,26 +5,28 @@
 }
 
 .header{
-    margin-top: 2%;
-    margin-left: 5%;
+    float: top;
+    margin-top: 2vh;
+    margin-left: 5vw;
 }
 .logo{
     text-align: center;
-    margin-top: 5%;
+    margin-top: 5vh;
 }
 .content{
     color: white;
-    margin-top: 12%;
-    margin-left: 14%;
-    margin-right: 16%;
+    margin-top: 12vh;
+    margin-left: 14vw;
+    margin-right: 16vw;
 }
 .people{
-    padding-top: 18%;
-    padding-left: 21%;
-    display: inline-block;
+    margin-top: 18vh;
+    margin-left: 20vw;
+    display:inline-block;
 }
 .bj{
+    float:right;
+    margin-right: 20vw;
+    margin-top: 18vh;
     display: inline-block;
-    margin-left: 33%;
-    position:relative;
-｝
+}
