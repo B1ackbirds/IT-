@@ -1,0 +1,30 @@
+*{
+    margin: 0; padding: 0;
+    background-color: #00ced1;
+
+}
+
+.header{
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.logo{
+    text-align: center;
+    margin-top: 5%;
+}
+.content{
+    color: white;
+    margin-top: 12%;
+    margin-left: 14%;
+    margin-right: 16%;
+}
+.people{
+    padding-top: 18%;
+    padding-left: 21%;
+    display: inline-block;
+}
+.bj{
+    display: inline-block;
+    margin-left: 33%;
+    position:relative;
+｝
