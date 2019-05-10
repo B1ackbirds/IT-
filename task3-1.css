@@ -6,27 +6,27 @@
 
 .header{
     float: top;
-    margin-top: 2vh;
-    margin-left: 5vw;
+    margin-top: 40px;
+    margin-left: 82px;
 }
 .logo{
     text-align: center;
-    margin-top: 5vh;
+    margin-top: 85px;
 }
 .content{
     color: white;
-    margin-top: 12vh;
-    margin-left: 14vw;
-    margin-right: 16vw;
+    margin-top: 255px;
+    margin-left: 210px;
+    margin-right: 234px;
 }
 .people{
-    margin-top: 18vh;
-    margin-left: 20vw;
+    margin-top: 372px;
+    margin-left: 325px;
     display:inline-block;
 }
 .bj{
     float:right;
-    margin-right: 20vw;
-    margin-top: 18vh;
+    margin-right: 325px;
+    margin-top: 372px;
     display: inline-block;
 }
