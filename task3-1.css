@@ -15,18 +15,18 @@
 }
 .content{
     color: white;
-    margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-top: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 .people{
-    margin-top: 100px;
-    margin-left: 50px;
+    margin-top: 60px;
+    margin-left: 30px;
     display:inline-block;
 }
 .bj{
     float:right;
-    margin-right:50px;
-    margin-top: 100px;
+    margin-right:30px;
+    margin-top: 60px;
     display: inline-block;
 }
