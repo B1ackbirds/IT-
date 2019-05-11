@@ -21,12 +21,21 @@
 }
 .people{
     margin-top: 60px;
-    margin-left: 30px;
+    margin-left: 50px;
     display:inline-block;
 }
+
 .bj{
     float:right;
-    margin-right:30px;
+    margin-right:50px;
     margin-top: 60px;
     display: inline-block;
+}
+p.num1{
+    position: absolute;
+    right:22px;
+}
+p.num2{
+    position: absolute;
+    left:34px;
 }
