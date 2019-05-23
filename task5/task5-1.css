@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    height: 100%;
+}
+
+header {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    height: 50px;
+    background-color: #5FC0CD
+}
+
+.text1 {
+    font-size: 25px;
+    color: #FFF;
+    margin: auto;
+}
+.main1 {
+    display: -webkit-flex;
+    display: flex;
+    width:100%;
+    height: 150px;
+    -webkit-align-items: flex-start;
+
+}
+.background-img {
+    background-image: url("src/背景医生.png");
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    z-index: -1;
+    background-size: 100% 100% ;
+    -moz-background-size: 100% 100%;
+}
+.bg-img2 {
+    background-image: url("src/背景医生灰色前图层.png");
+    height: 150px;
+    width:100%;
+    position: absolute;
+    z-index: -1;
+}
+.photo2 {
+    position: absolute;
+    left: 10px;
+    top: 85px;
+    z-index: -1;
+}
+.p3 {
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    top: 85px;
+}
+.t2 {
+    font-size: 18px;
+    position: absolute;
+    color: #FFFFFF;
+    top: 90px;
+    left: 110px;
+
+}
+.p4 {
+    position: absolute;
+    top: 120px;
+    left: 110px;
+}
+.t3 {
+    position: absolute;
+    top: 120px;
+    left: 130px;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.main2 {
+    display: inline-block;
+    list-style-type: none;
+    width: 100%;
+}
+.t4 {
+    padding-left: 15px;
+    border-left: 3px solid #00ced1;
+    margin: 15px 0 15px 15px;
+}
+.sty {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding: 15px 0 15px 20px;
+    border-bottom: 1px solid #E1E5E7;
+}
+.font1 {
+    padding-left: 15px;
+    border-left: 3px solid #00ced1;
+}
+.ph1 {
+    padding: 0 10px 0 20px;
+
+}
+.font2 {
+    padding-right: 15px;
+    border-right: 1px solid #E1E5E7;
+    margin-right: 15px;
+}
+.sty1 {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding: 15px 0 15px 0;
+    border-bottom: 1px solid #E1E5E7;
+    margin-left: 30px;
+}
+.ph2 {
+    padding-right: 10px;
+}
+.font3 {
+    padding: 0 15px 0 15px;
+    border-right: 1px solid #E1E5E7;
+    margin-right: 15px;
+    color: #E1E5E7;
+}
+.font4 {
+    color: #F00;
+}
+.font5 {
+    padding: 0 15px 0 45px;
+    border-right: 1px solid #E1E5E7;
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+.sty2 {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding: 15px 0 15px 0;
+    border-bottom: 1px solid #E1E5E7;
+}
+footer {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    background-color: #FFF;
+}
+.b1 {
+
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border:1px solid #5FC0CD;
+    text-align: center;
+    color: #5FC0CD;
+    width: 45vw;
+    position: absolute;
+    bottom: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.b2 {
+
+    background-color: #5FC0CD;
+    border-radius: 10px;
+    border:1px solid #5FC0CD;
+    text-align: center;
+    color: #FFFFFF;
+    width: 45vw;
+    position: absolute;
+    bottom: 10px;
+    margin: 20px;
+    padding: 20px;
+    right: -10px;
+}
