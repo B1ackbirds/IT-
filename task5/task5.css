@@ -9,8 +9,8 @@ html,body {
 header {
     display: flex;
     align-self: center;
+    align-items: center;
     height: 50px;
-    position: relative;
     background-color: #5FC0CD
 }
 
@@ -75,49 +75,70 @@ header {
     font-size: 14px;
     color: #FFFFFF;
 }
-.chapter1 {
-    display: flex;
-    display: -webkit-flex;
-    width: 100%;
-    padding: 10px 0 10px 10px;
-    -webkit-align-items: center;
-    align-items: center;
-    border-bottom: 1px solid #E1E5E7;
+.main2 {
+    display: inline-block;
     list-style-type: none;
+    width: 100%;
 }
 .t4 {
     padding-left: 15px;
-    border-left: 3px solid #5FC0CD;
-    margin-left: 15px;
+    border-left: 3px solid #00ced1;
+    margin: 15px 0 15px 15px;
 }
-.t5 {
+.sty {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding: 15px 0 15px 20px;
+    border-bottom: 1px solid #E1E5E7;
+}
+.font1 {
+    padding-left: 15px;
+    border-left: 3px solid #00ced1;
+}
+.ph1 {
+    padding: 0 10px 0 20px;
+
+}
+.font2 {
     padding-right: 15px;
     border-right: 1px solid #E1E5E7;
     margin-right: 15px;
 }
-.t6 {
-    padding-left: 15px;
-    border-left: 1px solid #E1E5E7;
-    margin-left: 15px;
-}
-.chapter2 {
+.sty1 {
     display: flex;
-    display: -webkit-flex;
-    width: 100%;
-    -webkit-align-items: center;
+    align-content: center;
     align-items: center;
+    padding: 15px 0 15px 0;
     border-bottom: 1px solid #E1E5E7;
-    list-style-type: none;
-    padding: 20px 0 20px 0;
+    margin-left: 30px;
 }
-.t7 {
-    padding: 0 25px 0 30px;
-    flex-shrink: 0;
+.ph2 {
+    padding-right: 10px;
+}
+.font3 {
+    padding: 0 15px 0 15px;
     border-right: 1px solid #E1E5E7;
+    margin-right: 15px;
+    color: #E1E5E7;
 }
-.t8 {
-    margin-left: 15px;
-
+.font4 {
+    color: #F00;
+}
+.font5 {
+    padding: 0 15px 0 45px;
+    border-right: 1px solid #E1E5E7;
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+.sty2 {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding: 15px 0 15px 0;
+    border-bottom: 1px solid #E1E5E7;
 }
 footer {
     position: fixed;
@@ -153,15 +174,4 @@ footer {
     margin: 20px;
     padding: 20px;
     right: -10px;
-}
-.chapter3 {
-    display: flex;
-    display: -webkit-flex;
-    width: 100%;
-    padding: 10px 0 10px 0;
-    margin-left: 20px;
-    -webkit-align-items: center;
-    align-items: center;
-    border-bottom: 1px solid #E1E5E7;
-    list-style-type: none;
 }
