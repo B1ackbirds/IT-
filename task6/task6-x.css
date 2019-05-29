@@ -49,10 +49,10 @@ nav {
     width: 0;
     height: 0;
     border-top: 7px solid #E1E5E7;
-    border-bottom: 7px solid transparent;
+
     border-left: 7px solid transparent;
     border-right: 7px solid transparent;
-    margin-top: 26.5px;
+
     right: 0;
     position: absolute;
     margin-right: 5px;
@@ -62,21 +62,8 @@ nav {
     flex: 1;
     border-right: 1px solid #E1E5E7;
     position: relative;
-}
-.con2 {
-    display: flex;
-    flex: 1;
-    border-right: 1px solid #E1E5E7;
-    position: relative;
-}
-.con3 {
-    display: flex;
-    flex: 1;
-    border-right: 1px solid #E1E5E7;
-    position: relative;
-}
-.nav1 {
-    margin: auto;
+    justify-content: center;
+    align-items: center;
 }
 .dropdown-content {
     display: none;
@@ -86,40 +73,15 @@ nav {
     top: 60px;
     text-align: center;
 }
-.dropdown-content2 {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    width: 100%;
-    top: 60px;
-    text-align: center;
-}
-.dropdown-content3 {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    width: 100%;
-    top: 60px;
-    text-align: center;
-}
+
 .con1:hover .dropdown-content {
     display: block;
 }
-.con2:hover .dropdown-content2 {
-    display: block;
-}
-.con3:hover .dropdown-content3 {
-    display: block;
-}
+
 .dropdown-content div:hover {
     background-color: #00FFFF;
 }
-.dropdown-content2 div:hover {
-    background-color: #00FFFF;
-}
-.dropdown-content3 div:hover {
-    background-color: #00FFFF;
-}
+
 ul {
     padding-bottom: 60px;
 }
@@ -142,16 +104,15 @@ li {
 }
 .num {
     margin-left: 40px;
-    text-overflow:ellipsis;
-    white-space:nowrap
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 .part1 {
     display: flex;
 }
 .money {
     color: #FF0000;
-    text-overflow:ellipsis;
-    white-space:nowrap
 
 }
 .right {
@@ -215,8 +176,3 @@ footer {
     flex: 1;
     text-align: center;
   }
-
-main {
-    width: 100%;
-    overflow-y: scroll;
-}
