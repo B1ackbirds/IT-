@@ -2,9 +2,9 @@
     margin: 0;
     padding: 0;
 }
-body {
+html body {
     background-color: #F0F0F0;
-    z-index: -99999;
+    font-size: 62.5%;
 }
 header {
     height: 60px;
@@ -41,57 +41,56 @@ ul {
 .part1 {
     display: flex;
     position: relative;
-    height: 80px;
+    height: 60px;
     width: 80%;
-    margin-left: 10%;
+    margin: 20px 10%;
     background-color: #ffffff;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
 }
 .txt1 {
-    position: absolute;
-    left: calc(50% - 115.5px);
-    top: calc(50% - 16.5px);
-    font-size: 25px;
+    font-size: 18px;
     color: #9A9A9A;
 }
 .txt111 {
-    margin: auto;
-    position: relative;
-    left: 45%;
+    position: absolute;
+    right: 10px;
+    width: 12px;
+    height: 12px;
+    border-left: 1px solid #999;
+    border-bottom: 1px solid #999;
+    -webkit-transform: translate(0,-50%) rotate(-135deg);
+    transform: translate(0,-50%) rotate(-135deg);
+    top: 30px;
 }
 .part2 {
-    position: relative;
     width: 80%;
     height: 60px;
     margin-left: 10%;
     background-color: #ffffff;
-    margin-top: 30px;
     border-bottom: 2px solid #FDD793;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .txt2 {
-    position: absolute;
-    left: calc(50% - 50px);
-    top: calc(50% - 16.5px);
-    font-size: 25px;
+    font-size: 20px;
     color: #FBB435;
 }
 .part3 {
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 80%;
-    height: 120px;
+    height: 110px;
     margin-left: 10%;
     background-color: #ffffff;
 }
 .box1 {
-    position: relative;
     width: 80%;
-    height: 80px;
+    height: 75px;
     background-color: #69D1E9;
-    margin: auto;
-    top: calc(50% - 40px);
     display: flex;
-    justify-content: center;
 }
 .box2 {
     display: flex;
@@ -99,41 +98,39 @@ ul {
     justify-content: center;
     align-items: center;
     width: 80%;
-    height: 80px;
+    height: 75px;
     background-color: #69D1E9;
-    margin: auto;
-    top: calc(50% - 40px);
 }
 .san {
     width: 0;
     height: 0;
-    border-top: 20px solid transparent;
-    border-bottom: 20px solid transparent;
-    border-left: 20px solid #FBB435;
-    border-right: 20px solid transparent;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #FBB435;
+    border-right: 15px solid transparent;
     position: absolute;
     right: -45px;
 }
 .txt3 {
-    text-align: center;
-    font-size: 30px;
-    position: relative;
-    top: calc(50% - 20px);
+    font-size: 20px;
     color: #FFFFFF;
-    text-decoration: none;
+    margin: auto;
+    border: 0;
+    background-color: #69D1E9;
+    outline:none;
 }
 .txt4 {
     background-color: #ffffff;
     position: relative;
     width: 80%;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     margin-left: 10%;
     color: #787878;
 }
 .txt6 {
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     position: relative;
     color: #FFFFFF;
 }
@@ -143,7 +140,7 @@ ul {
     position: relative;
     width: 80%;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     margin-left: 10%;
     color: #787878;
     height: 40px;
@@ -151,24 +148,22 @@ ul {
 .quanquan {
     display: flex;
     background-color: #ffffff;
-    position: relative;
     width: 80%;
-    text-align: center;
     margin-left: 10%;
     height: 30px;
     justify-content: center;
 }
 .quan1 {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     border: 1px;
     border-radius: 20px;
     background-color: #69D1E9;
     margin-left: 10px;
 }
 .quan2 {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     border: 1px;
     border-radius: 20px;
     background-color: #F0F0F0;

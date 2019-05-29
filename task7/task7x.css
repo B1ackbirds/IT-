@@ -9,13 +9,18 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    align-content: center;
+    align-items: center;
     height: 60px;
     background-color: #29BDE0;
 }
 .menu {
-    transform: scale(0.7);
-    margin:10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 35px;
+    border: 1px solid #FFF;
+    padding: 5px 0;
+    margin-left: 10px;
 }
 .txt1 {
     margin: auto;
@@ -23,18 +28,65 @@ header {
     color: #FFFFFF;
 }
 .XXX {
-    transform: scale(0.7);
-    margin: 10px;
+    position:relative;
+
+    width:0.3em;
+
+    height:2em;
+
+    background: #FFF;
+
+    -webkit-transform: rotate(45deg);
+
+    -moz-transform: rotate(45deg);
+
+    -o-transform: rotate(45deg);
+
+    -ms-transform: rotate(45deg);
+
+    transform: rotate(45deg);
+
+    display: inline-block;
+
 }
+
+.XXX:after{
+
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    width:0.3em;
+
+    height:2em;
+
+    background: #FFF;
+
+    -webkit-transform: rotate(270deg);
+
+    -moz-transform: rotate(270deg);
+
+    -o-transform: rotate(270deg);
+
+    -ms-transform: rotate(270deg);
+
+    transform: rotate(270deg);
+
+}
+
 .hand {
     display: flex;
     height: 60px;
     background-color: #B9E9F5;
     position: relative;
-    z-index: -99999;
+    align-items: center;
 }
 .txt2 {
-    font-size: 20px;
+    font-size:  16px;
     margin-left: 5%;
     position: absolute;
     top:calc(50% - 13px);
@@ -44,15 +96,13 @@ header {
 .mp3 {
     opacity: 0.01;
     position: absolute;
-    z-index: -1;
-    right:-233px;
-    margin-top: 3px;
+    z-index: 999;
+    right: -233px;
+
 }
 .backphoto {
-    margin-top: 4px;
     position: absolute;
     right: 15px;
-    z-index: -2;
 }
 .right {
     width: 0;
@@ -62,7 +112,6 @@ header {
     border-bottom: 10px solid transparent;
     position: absolute;
     right:33px;
-    margin-top: 20px;
 }
 .xia {
     width: 0;
@@ -75,7 +124,7 @@ header {
 }
 .txt3 {
     color: #ffffff;
-    font-size: 20px;
+    font-size:  16px;
     margin-left: 50px;
     margin-bottom: 30px;
     overflow: hidden;
@@ -84,15 +133,20 @@ header {
 .part1 {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 10vh;
+    margin-bottom: 12vw;
 }
+.part2 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10vw;
+}
+
 .part3 {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 20vh;
+    margin-bottom: 20vw;
 }
 .box1 {
-    height: 25vw;
     width: 25vw;
     background-color: #F5C97B;
     border: 5px solid #ffffff;
@@ -100,8 +154,8 @@ header {
 .shui {
     font-size: 5vw;
     text-align: center;
-    padding-bottom: 29.5%;
-    padding-top: 29.5%;
+    padding: 6vw 0;
+    background-color: #F5C97B;
 }
 .one {
     width: 100%;
@@ -117,7 +171,6 @@ header {
     width: 5vw;
     height: 5vw;
     position: relative;
-    margin: 1vw 0 0 1.5vw;
 }
 .ph2 {
     background-image: url("src/img.png");
@@ -126,7 +179,6 @@ header {
     width: 5vw;
     height: 5vw;
     position: relative;
-    margin: 1vw 0 0 1vw;
 }
 .ph3 {
     background-image: url("src/img.png");
@@ -135,7 +187,6 @@ header {
     width: 5vw;
     height: 5vw;
     position: relative;
-    margin: 1vw 0 0 1vw;
 }
 .ph4 {
     background-image: url("src/img.png");
@@ -144,12 +195,8 @@ header {
     width: 5vw;
     height: 5vw;
     position: relative;
-    margin: 1vw 0 0 1vw;
 }
-.box2 {
-    display: flex;
-    width: 25vw;
-}
+
 footer {
     position: fixed;
     height: 100px;
@@ -169,12 +216,28 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    border: 0;
 }
 .box2 {
+    display: flex;
+    justify-content: space-around;
+}
+.bigbox1:hover .box22 {
+    display: inline;
+}
+.box22 {
     display: none;
     position: absolute;
-    text-align: center;
+    margin-top: 3.5vw;
+    width: 25vw;
 }
-.bigbox1:hover .box2 {
-    display: flex;
+.bigbox1 {
+    position: relative;
+    width: 25vw;
+}
+.box7 {
+    border: 3px solid #FFF;
+}
+main {
+    padding-bottom: 90px;
 }
