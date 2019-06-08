@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 body {
     background-color: #29BDE0;
@@ -17,24 +18,28 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 35px;
+    width: 20px;
     border: 1px solid #FFF;
     padding: 5px 0;
     margin-left: 10px;
 }
 .txt1 {
     margin: auto;
-    font-size: 24px;
+    font-size: 16px;
     color: #FFFFFF;
 }
+.XX {
+    margin-right: 20px;
+}
+
 .XXX {
+    display: inline-block;
     position:relative;
 
-    width:0.3em;
+    width: 0.1em;
+    height: 1em;
 
-    height:2em;
-
-    background: #FFF;
+    
 
     -webkit-transform: rotate(45deg);
 
@@ -45,14 +50,14 @@ header {
     -ms-transform: rotate(45deg);
 
     transform: rotate(45deg);
-
-    display: inline-block;
+    background: #FFF;
+    
 
 }
 
 .XXX:after{
 
-    content: "";
+    
 
     position: absolute;
 
@@ -60,9 +65,9 @@ header {
 
     left: 0;
 
-    width:0.3em;
+    width: 0.1em;
 
-    height:2em;
+    height: 1em;
 
     background: #FFF;
 
@@ -75,43 +80,46 @@ header {
     -ms-transform: rotate(270deg);
 
     transform: rotate(270deg);
+    content: "";
 
 }
 
 .hand {
     display: flex;
-    height: 60px;
-    background-color: #B9E9F5;
     position: relative;
     align-items: center;
+    height: 60px;
+    background-color: #B9E9F5;
+    
 }
 .txt2 {
-    font-size:  16px;
-    margin-left: 5%;
     position: absolute;
     top:calc(50% - 13px);
+    margin-left: 5%;
+    font-size:  16px;
     overflow: hidden;
     white-space: nowrap;
 }
 .mp3 {
-    opacity: 0.01;
+    
     position: absolute;
     z-index: 999;
     right: -233px;
-
+    opacity: 0.01;
 }
 .backphoto {
     position: absolute;
     right: 15px;
 }
 .right {
+    position: absolute;
+    right:33px;
     width: 0;
     height: 0;
     border-top: 10px solid transparent;
     border-left: 15px solid black;
     border-bottom: 10px solid transparent;
-    position: absolute;
-    right:33px;
+    
 }
 .xia {
     width: 0;
@@ -123,10 +131,11 @@ header {
     margin-left: 50px;
 }
 .txt3 {
-    color: #ffffff;
-    font-size:  16px;
     margin-left: 50px;
     margin-bottom: 30px;
+    color: #ffffff;
+    font-size:  16px;
+    
     overflow: hidden;
     white-space: nowrap;
 }
@@ -148,75 +157,89 @@ header {
 }
 .box1 {
     width: 25vw;
-    background-color: #F5C97B;
     border: 5px solid #ffffff;
+    background-color: #F5C97B;
+    
 }
 .shui {
+    padding: 6vw 0;
     font-size: 5vw;
     text-align: center;
-    padding: 6vw 0;
+    
     background-color: #F5C97B;
 }
 .one {
     width: 100%;
     font-size: 3vw;
     text-align: center;
-    background-color: #83B09A;
     color: #ffffff;
+    background-color: #83B09A;
+    
 }
 .ph1 {
+    position: relative;
+    width: 5vw;
+    height: 5vw;
     background-image: url("src/img.png");
     background-position: -72% 76%;
     background-size: 348% 119%;
-    width: 5vw;
-    height: 5vw;
-    position: relative;
+    
+    
 }
 .ph2 {
+    position: relative;
+    width: 5vw;
+    height: 5vw;
     background-image: url("src/img.png");
     background-position: 102% 55%;
     background-size: 364% 118%;
-    width: 5vw;
-    height: 5vw;
-    position: relative;
+    
+    
 }
 .ph3 {
+    position: relative;
+    width: 5vw;
+    height: 5vw;
     background-image: url("src/img.png");
     background-position: 169% 55%;
     background-size: 367% 100%;
-    width: 5vw;
-    height: 5vw;
-    position: relative;
+    
+    
 }
 .ph4 {
+    position: relative;
+    width: 5vw;
+    height: 5vw;
     background-image: url("src/img.png");
     background-position: 135% 55%;
     background-size: 377% 158%;
-    width: 5vw;
-    height: 5vw;
-    position: relative;
+    
+    
 }
 
 footer {
     position: fixed;
     height: 100px;
     width: 100%;
-    background-color: #29BDE0;
     bottom: 0;
+    background-color: #29BDE0;
+    
 }
 .txt4 {
-    background-color: #FBB435;
+    
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration: none;
-    width: 50%;
-    height: 50%;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
     border: 0;
+    width: 50%;
+    height: 50%;
+    text-decoration: none;
+    transform: translate(-50%,-50%);
+    
+    background-color: #FBB435;
 }
 .box2 {
     display: flex;
