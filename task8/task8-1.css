@@ -14,9 +14,9 @@ body {
 
 .nav-link {
     display: inline-block;
+    padding: 0;
     height: 30px;
     line-height: 30px;
-    padding: 0;
 }
 .s1:hover {
     border-bottom: 2px solid #FFF;
@@ -39,11 +39,9 @@ body {
     height: 200px;
 }
 .content {
-    margin-top: 20px;
+    margin: 20px;
 }
-.content2 {
-    margin-bottom: 50px;
-}
+
 .center{width:100%;margin-right:-100px;}
 
 
@@ -120,7 +118,6 @@ body {
     height: 250px;
     width: 250px;
     margin: auto;
-    margin-bottom: 30px;
     padding: 0 15px;
     }
 }
@@ -205,6 +202,7 @@ p {
     .meiti1{
         flex:100%;
         max-width: 100%;
+        margin-bottom: 20px;
     }
 }
 .list {
@@ -241,7 +239,7 @@ ul {
    
     font-size: 10px;
 }
-@media screen and (max-width:900px){
+@media screen and (max-width:920px){
     .m1 {
         flex:20%;
         max-width: 20%;
@@ -259,6 +257,12 @@ ul {
         max-width: 100%;
     }
 }
+@media (max-width: 767px){
+.col-sm-6 {
+    margin-bottom: 30px;
+}
+}
+
 .yuan1:hover{
     border-bottom: 1px solid #29b078;
 }
@@ -289,4 +293,16 @@ ul {
 }
 .container-fluid {
     padding:0;
+}
+
+@media screen and (max-width:700px){
+    .sm3{
+        padding-bottom: 20px;
+        padding-left: 25px;
+    }
+}
+@media (max-width:577px){
+    .part2-1 img{
+        display: none;
+    }
 }
