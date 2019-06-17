@@ -397,3 +397,7 @@ input[type="checkbox"]:checked + lable::after{
        height: 250px;
 }
 }
+
+.row {
+    margin: 0;
+}
