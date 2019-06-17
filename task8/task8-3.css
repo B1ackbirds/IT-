@@ -203,7 +203,7 @@ color:rgba(51,51,51,1);
 
  @media screen and (max-width:520px){
     .D1{
-       flex: 0 0 1000%;
+       flex: 0 0 100%;
         max-width: 100%;
         margin-bottom: 20px;
     }
