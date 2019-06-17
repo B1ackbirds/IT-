@@ -52,15 +52,21 @@
     padding: 0 1rem;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+}
 
 ul li{
-    margin-bottom: 10px;
+    margin: 10px;
+    border: 1px solid #FFF;
+    background: #FFF;
+    border-radius: 15px;
 }
 
 a:hover{
-    color: black;
+    color: #FFF;
     background-color: #1D7AD9;
-    border-radius: 20%;
+    border-radius: 15%;
 }
 
 .navbar{
@@ -145,6 +151,7 @@ button:hover {
 
 .prog-branch:hover p{
     color: #FF7F02;
+    background-color: #F5F5F5;
 }
 
 .introduce {
@@ -310,12 +317,6 @@ input[type="checkbox"]:checked + lable::after{
     margin: 0 5px 20px;
 }
 
-/* @media (max-width:600px){
-    .radio-top,.dr-down{
-        flex:0 0 50%;
-        max-width:50%;
-    }
-} */
 
 @media (max-width:1000px){
     .col-3{
@@ -400,4 +401,17 @@ input[type="checkbox"]:checked + lable::after{
 
 .row {
     margin: 0;
+}
+
+.col-3 span{
+    display: inline-block;
+    margin: 0 5px 10px 0;
+}
+
+.col-3 span:hover{
+    color: #1D7AD9;
+}
+
+.col-3 p:hover{
+    color: #1D7AD9;
 }
