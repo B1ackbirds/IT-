@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="task11.css">
+</head>
+<body>
+    <header>
+        <div class="head-l">关闭</div>
+        <div class="head-m">登陆</div>
+        <div class="head-r">注册</div>
+    </header>
+    <main>
+        <div class="content-1" style="margin-bottom: 10px;">
+            <img class="phone" src="../src/iphone.png" >
+            <input class="cont-rig" type="text" placeholder="请输入手机号" name="tel" oninput = "value=value.replace(/[^\d]/g,'')" maxlength="11"/>
+        </div>
+        <div class="content-1" style="margin-bottom: 30px;">
+            <img class="lock" src="../src/locked-2.png" >
+            <input class="cont-rig" type="password" placeholder="请输入密码" name="tel" oninput = "value=value.replace(/[^\d]/g,'')" maxlength="11"/>
+        </div>
+    </main>
+    <footer>
+        <button class="login">登陆</button>
+        <p class="forgot">忘记密码？</p>
+    </footer>
+</body>
+</html>

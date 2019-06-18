@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  background-color: #EFF0F4;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+  font-size: 18px;
+  color: #FFF;
+  margin-bottom: 10px;
+  background-color: #5FC0CD;
+}
+
+.head-l {
+  margin-left: 20px;
+}
+
+.head-r {
+  margin-right: 20px;
+}
+
+.content-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FFF;
+}
+
+.phone {
+  height: 20px;
+  margin: 20px 0;
+  padding: 0 20px;
+  border-right: 2px solid #EAEDEE;
+}
+
+.cont-rig {
+  height: 30px;
+  margin-left: 30px;
+  border-color: transparent;
+}
+
+.lock {
+  height: 20px;
+  margin: 20px 0;
+  padding: 0 20px;
+  border-right: 2px solid #EAEDEE;
+}
+
+.login {
+  height: 60px;
+  width: 100%;
+  font-size: 20px;
+  letter-spacing: 10px;
+  color: #FFF;
+  border: 0;
+  background-color: #5FC0CD;
+  outline: none;
+}
+
+.forgot {
+  text-align: right;
+  margin-right: 10px;
+  color: #5FC0CD;
+}
+/*# sourceMappingURL=task11.css.map */
