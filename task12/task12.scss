@@ -1,0 +1,177 @@
+body{
+    margin:0
+}
+
+$color:#FFF;
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    font-size: 20px;
+    color: #FFF;
+    background-color: #5FC0CD;
+}
+
+.head-lef{
+    position: absolute;
+    left: 20px;
+    width:10px;
+    height:10px;
+    border-top:3px solid $color;
+    border-right:3px solid $color;
+    transform:rotate(45deg);
+    transform: rotate(222deg);    
+}
+
+.doctor {
+    height: 200px;
+    background-image: url(./src1/背景医生.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: 0 -8px;
+}
+
+.worker-back {
+    position: relative;
+    top:50px;
+    left:20px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #EFEFEF;
+}
+
+.worker {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+}
+
+.name {
+    display: inline-block;
+    position: absolute;
+    left: 120px;
+    top: 20px;
+    width: 120px;
+    font-size: 18px;
+}
+
+.area {
+    position: absolute;
+    top: 30px;
+    font-size: 13px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li{
+    display: flex;
+    padding: 15px 0;
+    border-bottom: 1px solid #EFEFEF;
+    
+ }
+
+.skill {
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 20px;
+    margin-left: 20px;
+    border-left: 3px solid #5FC0CD;  
+}
+
+.home::before {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    padding-left: 10px;
+    margin-left: 25px;
+    content: "";
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-image: url(./src1/红五角星.png);
+   
+}
+
+.home::after {
+    content: "";
+    margin-left: 10px;
+    border-right: 1px solid #EFEFEF;
+}
+
+.bac {
+    background-image: url(./src1/定位图标.png);width: 20px;height: 20px;
+    background-size: 30px 30px; 
+}
+
+.eat::before{
+    display: inline-block;
+    width:15px;
+    height: 15px;
+    padding-left: 10px;
+    margin-left: 10px;
+    content: "";
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-image:url(./src1/红五角星.png);
+}
+
+.work-old {
+    margin-left: 25px;
+    color: #999;
+    &::after{
+        margin-left: 20px;
+        border-right:1px solid #E1E5E7;
+        content:"";
+    }
+}
+
+.work-time {
+    @extend .work-old;
+}
+
+.service {
+    @extend .work-old;
+}
+
+.me {
+    display: inline-block;
+    padding-left: 20px;
+    flex-shrink: 0;
+    @extend .work-old;
+}
+
+footer {
+    display: flex;
+    position: fixed;   
+    bottom: 20px;
+    height: 80px;
+    width: 100%;
+}
+
+.f-left {
+    position: absolute;
+    bottom: 0;
+    width: 45%;
+    height: 40px;
+    margin: 0 2.5%;
+    color: #5FC0CD;
+    border-radius: 10px;
+    border:1px solid #5FC0CD;
+    background-color: #FFF;
+    outline: none;
+}
+
+.f-right {
+    right:0;
+    color: $color;
+    background-color: #5FC0CD;
+    @extend .f-left;
+}
