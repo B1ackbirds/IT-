@@ -1,0 +1,195 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+$color: #999;
+
+header {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5FC0CD;
+}
+
+.find-l {
+    width: 80px;
+    height: 40px;
+    color: #FFF;
+    background-color: #55A8B3;
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+}
+
+.find-r {
+    position: relative;
+    left: -10px;
+    color: #5FC0CD;
+    background-color: #FFF;
+    @extend .find-l;
+}
+
+.head-gps {
+    position: absolute;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+table {
+    width: 100%;
+    height: 40px;
+    color: #999;
+    border:solid thin #E1E5E7;
+    table-layout: fixed;
+}
+
+td {
+    position: relative;
+    text-align: center;
+    border-right: 1px solid #E1E5E7;
+}
+
+.tab-sty::after {
+    position: absolute;
+    top: calc(50% - 5px);
+    right:5px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #AFBAC0;
+    content: ""
+}
+
+.drop-content {
+    display: none;
+    position: absolute;
+    top: 38px;
+    left: 0;
+    width: 100%;
+    font-size: 12px;
+    background-color: lavender;
+}
+
+
+td:hover .drop-content {
+    display: inline-block;
+    
+}
+
+.drop-content p:hover {
+    background-color: #5FC0CD;
+}
+
+.date {
+    
+    border-bottom: 1px solid #E1E5E7;
+}
+
+.date p {
+    margin: 0;
+    padding: 10px 0;
+}
+
+
+.service-d {
+    color: $color;
+    &::before {
+        display: inline-block;
+        width: 50px;
+        height: 13px;
+        background-size: 15px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(./src2/date.png);
+        content: "";
+    }
+}
+
+.service-t {
+    display: inline-block;
+    margin: 0 0 0 50px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.much-time {
+    display: inline-block;
+    margin: 0 50px 0 0;
+    color: red;
+    white-space: nowrap;
+    &::after {
+        position: absolute;
+        top:calc(50%);
+        width: 12px;
+        height: 12px;
+        margin-left: 10px;
+        border-left: 3px solid #5FC0CD;
+        border-bottom: 3px solid #5FC0CD;
+        -webkit-transform: translate(0,-50%) rotate(-135deg);
+        transform: translate(0,-50%) rotate(-135deg);
+        content: "";
+    }
+}
+
+.area {
+    color: $color;
+    &::before {
+        display: inline-block;
+        width: 50px;
+        height: 13px;
+        background-size: 11px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(./src2/gps.png);
+        content: "";
+    }
+}
+
+.date-much {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    
+}
+
+footer {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+    background-color: #F8FAFB;
+}
+
+.bottom-ball {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #5FC0CD;
+}
+
+.bot-wri {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.me {
+    height: 25px;
+    widows: 25px;
+}
+
+.mine {
+    display: block;
+    font-size: 13px;
+    color: $color;
+}
