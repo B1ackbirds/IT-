@@ -11,8 +11,6 @@ header {
     justify-content: center;
     align-items: center;
     background-color: #5FC0CD;
-}
-
 .find-l {
     width: 80px;
     height: 40px;
@@ -22,7 +20,6 @@ header {
     border-radius: 10px;
     outline: none;
 }
-
 .find-r {
     position: relative;
     left: -10px;
@@ -31,11 +28,12 @@ header {
     @extend .find-l;
 }
 
-.head-gps {
+img {
     position: absolute;
     right: 10px;
     width: 30px;
     height: 30px;
+}
 }
 
 table {
@@ -44,12 +42,12 @@ table {
     color: #999;
     border:solid thin #E1E5E7;
     table-layout: fixed;
-}
 
 td {
     position: relative;
     text-align: center;
     border-right: 1px solid #E1E5E7;
+}
 }
 
 .tab-sty::after {
@@ -85,12 +83,10 @@ td:hover .drop-content {
 .date {
     
     border-bottom: 1px solid #E1E5E7;
-}
-
-.date p {
-    margin: 0;
-    padding: 10px 0;
-}
+    p {
+        margin: 0;
+        padding: 10px 0;
+    }
 
 
 .service-d {
@@ -106,6 +102,8 @@ td:hover .drop-content {
         content: "";
     }
 }
+}
+
 
 .service-t {
     display: inline-block;
@@ -172,9 +170,7 @@ footer {
     width: 50px;
     border-radius: 50%;
     background-color: #5FC0CD;
-}
-
-.bot-wri {
+img {
     position: absolute;
     transform: translate(-50%,-50%);
     top: 50%;
@@ -182,7 +178,7 @@ footer {
     height: 30px;
     width: 30px;
 }
-
+}
 .me {
     height: 25px;
     widows: 25px;

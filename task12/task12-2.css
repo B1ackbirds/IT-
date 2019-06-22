@@ -17,7 +17,7 @@ header {
   background-color: #5FC0CD;
 }
 
-.find-l, .find-r {
+header .find-l, header .find-r {
   width: 80px;
   height: 40px;
   color: #FFF;
@@ -27,14 +27,14 @@ header {
   outline: none;
 }
 
-.find-r {
+header .find-r {
   position: relative;
   left: -10px;
   color: #5FC0CD;
   background-color: #FFF;
 }
 
-.head-gps {
+header img {
   position: absolute;
   right: 10px;
   width: 30px;
@@ -49,7 +49,7 @@ table {
   table-layout: fixed;
 }
 
-td {
+table td {
   position: relative;
   text-align: center;
   border-right: 1px solid #E1E5E7;
@@ -92,11 +92,11 @@ td:hover .drop-content {
   padding: 10px 0;
 }
 
-.service-d {
+.date .service-d {
   color: #999;
 }
 
-.service-d::before {
+.date .service-d::before {
   display: inline-block;
   width: 50px;
   height: 13px;
@@ -184,7 +184,7 @@ footer {
   background-color: #5FC0CD;
 }
 
-.bot-wri {
+.bottom-ball img {
   position: absolute;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -197,5 +197,11 @@ footer {
 .me {
   height: 25px;
   widows: 25px;
+}
+
+.mine {
+  display: block;
+  font-size: 13px;
+  color: #999;
 }
 /*# sourceMappingURL=task12-2.css.map */
