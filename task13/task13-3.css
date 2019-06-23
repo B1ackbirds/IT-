@@ -1,0 +1,206 @@
+@charset "UTF-8";
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+  background-color: #29BDE0;
+}
+
+header .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+header .menu .menu-con {
+  width: 24px;
+  height: 3px;
+  background-color: #FFF;
+}
+
+input {
+  position: absolute;
+  left: 13px;
+  top: 20px;
+  height: 20px;
+  width: 20px;
+}
+
+.ghost {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80vw;
+  height: 60px;
+  margin: 20px 10vw;
+  color: #787878;
+  background-color: #FFF;
+}
+
+.ghost::after {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  width: 12px;
+  height: 12px;
+  border-left: 3px solid #999;
+  border-bottom: 3px solid #999;
+  -webkit-transform: translate(0, -50%) rotate(-135deg);
+  transform: translate(0, -50%) rotate(-135deg);
+  content: "";
+}
+
+.content-part-2 {
+  width: 80vw;
+  margin: 0 10vw;
+  background-color: #FFF;
+}
+
+.content-part-2 .ghost-game {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+  color: #FBB435;
+  border-bottom: 1px solid #FBB435;
+}
+
+.content-part-2 .repeat, .content-part-2 .repeat-mid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60vw;
+  margin-left: 10vw;
+  margin-top: 20px;
+  height: 100px;
+  color: #FFF;
+  background-color: #69D1E9;
+}
+
+.content-part-2 p {
+  text-align: center;
+  color: #787878;
+}
+
+.repeat-mid {
+  position: relative;
+}
+
+.repeat-mid .mid-right {
+  position: absolute;
+  right: -7vw;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #FBB435;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 30px;
+  width: 80vw;
+  margin: 0 10vw;
+  background-color: #FFF;
+}
+
+footer .foot, footer .foot-1 {
+  height: 10px;
+  width: 10px;
+  margin-right: 5px;
+  border-radius: 50%;
+  background-color: #69D1E9;
+}
+
+footer .foot-1 {
+  background-color: #787878;
+}
+
+/* 下面是右边的无序列表 */
+body {
+  background-color: #F0F0F0;
+}
+
+body ul li {
+  position: relative;
+  height: 20px;
+  width: 100%;
+  padding: 20px 0;
+  list-style-type: none;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.design {
+  position: absolute;
+  top: calc(50%);
+  right: 60px;
+  width: 12px;
+  height: 12px;
+  content: "";
+  border-left: 1px solid #999;
+  border-bottom: 1px solid #999;
+  -webkit-transform: translate(0, -50%) rotate(-135deg);
+  transform: translate(0, -50%) rotate(-135deg);
+}
+
+/* 上面是右边无序列表 */
+input:checked ~ .content-rig {
+  right: -70%;
+}
+
+.content-all {
+  position: relative;
+  overflow: hidden;
+}
+
+.left-none {
+  position: absolute;
+  width: 70%;
+  margin: 0;
+  background-color: #FFF;
+}
+
+.content-rig {
+  position: relative;
+  right: 0;
+  background-color: #f0f0f0;
+}
+/*# sourceMappingURL=task13-3.css.map */
