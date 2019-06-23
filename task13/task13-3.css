@@ -202,5 +202,7 @@ input:checked ~ .content-rig {
   position: relative;
   right: 0;
   background-color: #f0f0f0;
+  -webkit-transition: 2s;
+  transition: 2s;
 }
 /*# sourceMappingURL=task13-3.css.map */
