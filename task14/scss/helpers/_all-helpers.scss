@@ -1,0 +1,11 @@
+$green:#29b078;
+$back-gray:#FAFAFA;
+$back-green:#29b078;
+$gray:#999;
+$white:#FFF;
+
+@mixin sty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

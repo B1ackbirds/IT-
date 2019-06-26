@@ -1,0 +1,88 @@
+.viewport {
+    position: relative;
+    overflow: hidden;
+}
+.wrap {
+    position: relative;
+    width: 300vw;
+    overflow: hidden;
+    animation: carousel linear 5s infinite 0s normal;
+}
+.wrap img {
+    display: inline-block;
+    float: left;
+    width: 100vw;
+    height: 300px;
+    
+}
+@keyframes carousel {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: -0vw;
+    }
+    40% {
+        left: -100vw;
+    }
+    60% {
+        left: -100vw;
+    }
+    80% {
+        left: -200vw;
+    }
+    100% {
+        left: -200vw;
+    }
+}
+
+.page span{
+    font-size: 16px;
+    width: 60%;
+    color: #FFF;
+    position: absolute;
+    top: -16vh;
+    left: 22vw;
+}
+
+.lef{
+    position: absolute;
+  top: 50%;
+    left: 30px;
+  height: 12px;
+  width: 12px;
+  z-index: 1;
+  border-left: 3px solid #FFF;
+  border-bottom: 3px solid #FFF;
+  -webkit-transform: translate(0,-50%) rotate(-135deg);
+  transform: translate(0,-50%) rotate(-310deg);
+}
+
+.rig {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    width: 12px;
+  height: 12px;
+  z-index: 1;
+  border-left: 3px solid #FFF;
+  border-bottom: 3px solid #FFF;
+  -webkit-transform: translate(0,-50%) rotate(-135deg);
+  transform: translate(0,-50%) rotate(-135deg);
+}
+
+.wrap-point {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    z-index: 1;
+}
+
+.point {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #FFF;
+    margin-right: 10px;
+}

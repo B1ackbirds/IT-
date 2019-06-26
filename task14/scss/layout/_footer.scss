@@ -1,0 +1,27 @@
+.foot {
+   color: #FFF;
+   font-size: 12px;
+
+  span{
+      display: inline-block;
+       margin: 10px;
+       
+   }
+img{
+    zoom: 0.5;
+}
+}
+
+.foote span:hover{
+    text-decoration: underline; 
+    
+   }
+
+
+ .last{
+
+       margin: 0;
+       color: $white;
+       text-align: center;
+       border-top: 1px solid #FFF;
+   }

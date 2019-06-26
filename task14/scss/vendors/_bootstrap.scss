@@ -1,0 +1,81 @@
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+//generate Grid
+$list:(sm:576px,md:768px,lg:992px,xl:1200px);
+@each $m,$px in $list {
+  @media (min-width:$px){
+    @for $i from 1 through 12{
+      .col-#{$m}-#{$i}{
+        flex:0 0 100%/12*$i;
+        max-width:100%/12*$i;
+      }
+    }
+  }
+}
+
+$list:(sm,md,lg,xl);
+@each $m in $list {
+    @for $i from 1 through 12 {  
+        .col-#{$m}-#{$i}{
+            position: relative;
+            width: 100%;
+            min-height: 1px;
+            padding: 0 15px;
+        }
+    }
+}
+
+@for $i from 1 through 12 {
+    .col-#{$i}{
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding: 0 15px;
+    }  
+}
+
+// sm
+@media (min-width: 576px){
+  .wrapper {
+      max-width: 540px;
+  }
+}
+// md
+@media (min-width: 768px){
+  .wrapper {
+      max-width: 720px; 
+  }
+}
+// lg
+@media (min-width: 992px){
+  .wrapper {
+      max-width: 960px;
+  }
+}
+//xl
+@media (min-width: 1200px)
+{   .wrapper{
+ max-width: 1140px;
+}
+} 
+
+.wrapper {
+  width: 100%;
+  padding: 30px 15px;
+  margin-right: auto;
+  margin-left: auto;
+   }
+  
+
+  .outer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    }
+  
+ 
+  
+ 
