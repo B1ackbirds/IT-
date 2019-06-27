@@ -382,6 +382,11 @@ nav span {
           box-sizing: border-box;
 }
 
+nav span a {
+  color: #FFF;
+  text-decoration: none;
+}
+
 nav p {
   margin: 0 0 0 20px;
   text-align: center;

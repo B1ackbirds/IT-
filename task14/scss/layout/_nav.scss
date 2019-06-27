@@ -13,6 +13,10 @@ nav {
         line-height: 60px;
         color: #FFF;
         box-sizing: border-box;
+        a {
+            color: $white;
+         text-decoration: none;
+        }
     }
    p{
        margin: 0 0 0 20px;
