@@ -1,0 +1,25 @@
+body{
+    margin: 0; border: 0;
+}
+.box{
+    padding-left: 30%;
+    padding-top: 30%;
+    margin: 2.5% 0 0 2.5%;
+    background-color:rgb(255,166,0);
+    border-radius:5px;
+    float: left;
+
+}
+
+button {
+    display: block;
+    width: 100vw;
+    margin: 30px 0;
+    height: 40px;
+    color: red;
+    background-color: #FFF;
+    border: 1px solid red;
+    outline-style: none;
+   
+}
+
