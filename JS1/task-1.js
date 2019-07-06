@@ -1,6 +1,6 @@
 var x=document.getElementsByClassName("box");
 var open;
-
+var d,e,f;
 // 点击开始闪啊闪
 function myFunction(){
     reset();
